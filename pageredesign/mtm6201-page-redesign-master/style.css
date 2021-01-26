@@ -1,0 +1,71 @@
+/*----Nav----*/
+
+nav#nav{
+    background-color: turquoise;
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    word-spacing: 15rem;
+    width: 63.65%;
+}
+
+nav#nav .nav-link{
+    color: black;
+}
+
+nav#nav a:hover{
+    text-decoration: underline;
+}
+
+/*----Hello----*/
+
+.home#home{
+    background-color: black;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/*----About Me----*/
+
+.about#about{
+    background-color: lightgray;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.about-image{
+    width: 450px;
+}
+
+/*----Contact Me----*/
+
+.contact#contact{
+    background-color: black;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+   
+}
+
+form.contact-form{
+    background-color: turquoise;
+    color: black;
+    text-align: left;
+    width: 50%;
+}
+
+.contact#contact p{
+    font-size: 1.75rem;
+}
+
+/*----Footer----*/
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    background-color: lightgray;
+    padding-top: 10px;
+    text-align: right;
+    width: 63.65%;
+}
